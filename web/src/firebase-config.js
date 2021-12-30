@@ -1,13 +1,12 @@
-/**
- * To find your Firebase config object:
- * 
- * 1. Go to your [Project settings in the Firebase console](https://console.firebase.google.com/project/_/settings/general/)
- * 2. In the "Your apps" card, select the nickname of the app for which you need a config object.
- * 3. Select Config from the Firebase SDK snippet pane.
- * 4. Copy the config object snippet, then add it here.
- */
 const config = {
-  /* TODO: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
+  apiKey: "AIzaSyAgcMf7umnASf0vSmuKWJlVSIbe3K0tAfA",
+  authDomain: "chess-game-a8036.firebaseapp.com",
+  databaseURL: "https://chess-game-a8036-default-rtdb.firebaseio.com",
+  projectId: "chess-game-a8036",
+  storageBucket: "chess-game-a8036.appspot.com",
+  messagingSenderId: "481285790558",
+  appId: "1:481285790558:web:3c2218fcedb674f0f94dcf",
+  measurementId: "G-ZJ3RHK6632"
 };
 
 export function getFirebaseConfig() {
